@@ -1,0 +1,86 @@
+body.menu {
+    background-image: url('img/bg.jpg');
+    background-size: 100% 160%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    text-align:center;
+    color: rgb(180, 50, 100);
+    font-size: 70px;
+
+}
+
+.hlink {
+    color: aliceblue;
+    padding: 0 20px 0 20px;
+    text-decoration: double;
+    font-size: 25px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.stiky {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(240, 248, 255, 0.862) ;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.logo{
+    height: 130px;
+    width: 130px;
+    border-radius: 65px;
+    float: left;
+}
+.footer{
+    background-color: black;
+    height: 120px;
+    margin-top: 30px;
+}
+.us{
+    color: white;
+    margin: 20px;
+    padding-top: 10px;
+    /* float: inline-end; */
+    text-align: center;
+}
+form {
+    padding: auto;
+    margin-top: 10%;
+    text-align: center;
+    font-weight: 600;
+   /* border: 2px solid black;
+    border-style: double;
+    border-left:0ch;
+    border-right: 0ch;*/
+    box-sizing: border-box;
+    
+}
+.log{
+    background-image: url("img/log.jpg");
+    background-size: 100% 150%;
+    background-repeat: no-repeat;
+}
+
+.veg{
+    background-image: url("img/vbg.jpg");
+    background-size: 100% 330%;
+    background-repeat: no-repeat;
+}
+
+
+
+.non_veg{
+    background-image: url('img/ground.webp');
+    background-size: 100% 330%;
+    background-repeat: no-repeat;
+}
